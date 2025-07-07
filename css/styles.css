@@ -53,3 +53,14 @@ span#txt-btn {
     font-family: var(--poppins);
     font-size: 1.09em;
 }
+
+aside#consquistas {
+    width: 55%;
+    margin: 10px auto auto auto;
+    background-color: #a9a9a9;
+    padding: 6.5px;
+    text-align: center;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    line-height: 1.5em;
+}
