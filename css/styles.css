@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*
+    CSS Archive by: @arthurferreira-dev
+*/
+
+:root {
+    --poppins: 'Poppins', Helvetica, Verdana, Arial, sans-serif;
+    --arial: Arial, Helvetica, sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 6.5px;
+    text-align: center;
+}
+
+body {
+    background-color: #d3d3d3;
+    width: 100%;
+    height: 100%;
+    font-size: 1em;
+    font-family: var(--poppins);
+}
+
+button {
+    display: block;
+    margin: auto;
+}
+
+button.click-btn {
+    margin-top: 135.6px;
+    padding: 25px;
+    border: none;
+    background-color: #d81111;
+    transition-duration: .38s;
+    border-radius: 7px;
+}
+
+button.click-btn:hover {
+    background-color: #c30e0e;
+}
+
+span#txt-btn {
+    text-align: center;
+    font-family: var(--poppins);
+    font-size: 1.09em;
+}
