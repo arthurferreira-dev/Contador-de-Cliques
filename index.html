@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contador de Cliques</title>
+    <title>Cliques</title>
     <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
     <link rel="icon" sizes="16x16" href="favicon/favicon-16x16.png" type="image/x-png">
     <link rel="icon" sizes="32x32" href="favicon/favicon-32x32.png" type="image/x-png">
@@ -25,6 +25,10 @@
     <main>
         <button class="click-btn" id="click-btn" onclick="clique()">
             <span id="txt-btn">Não clique aqui...</span>
+        </button>
+        <br>
+        <button onclick="reset()" class="reset-btn">
+            <span id="txt-reset">Resetar progresso</span>
         </button>
         <br>
         <aside id="consquistas">

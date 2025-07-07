@@ -44,11 +44,29 @@ button.click-btn {
     border-radius: 7px;
 }
 
+button.reset-btn {
+    padding: 25px;
+    border: none;
+    background-color: #6821d2;
+    transition-duration: .38s;
+    border-radius: 7px;
+}
+
 button.click-btn:hover {
     background-color: #c30e0e;
 }
 
+button.reset-btn:hover {
+    background-color: #5d1dbc;
+}
+
 span#txt-btn {
+    text-align: center;
+    font-family: var(--poppins);
+    font-size: 1.09em;
+}
+
+span#txt-reset {
     text-align: center;
     font-family: var(--poppins);
     font-size: 1.09em;
